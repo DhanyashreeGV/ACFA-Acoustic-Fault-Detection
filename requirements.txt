@@ -1,0 +1,11 @@
+# Core dependencies for ACFA (Acoustic Fault Analyzer)
+numpy>=1.22.0
+pandas>=1.4.0
+scipy>=1.8.0
+torch>=2.0.0
+torchaudio>=2.0.0
+librosa>=0.10.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+tqdm>=4.64.0
+soundfile>=0.12.0

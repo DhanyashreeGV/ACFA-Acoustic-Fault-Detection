@@ -1,0 +1,9 @@
+class,precision,recall,f1-score,support
+Fan_Normal,0.0,0.0,0.0,7
+Fan_Anomaly,0.0,0.0,0.0,7
+Pump_Normal,0.0,0.0,0.0,8
+Pump_Anomaly,0.0,0.0,0.0,8
+SlideRail_Normal,0.0,0.0,0.0,7
+SlideRail_Anomaly,0.0,0.0,0.0,8
+Valve_Normal,0.0,0.0,0.0,7
+Valve_Anomaly,0.13333333333333333,1.0,0.23529411764705882,8

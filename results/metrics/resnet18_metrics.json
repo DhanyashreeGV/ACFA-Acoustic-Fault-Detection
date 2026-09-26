@@ -1,0 +1,73 @@
+{
+  "model_name": "ResNet18_Transfer",
+  "overall_metrics": {
+    "total_samples": 60,
+    "correct_predictions": 46,
+    "accuracy": 0.7666666666666667,
+    "macro_precision": 0.8367063492063492,
+    "macro_recall": 0.765625,
+    "macro_f1": 0.7605209475094385,
+    "weighted_precision": 0.8332010582010583,
+    "weighted_recall": 0.7666666666666667,
+    "weighted_f1": 0.7593222506393862,
+    "failed_samples": 0
+  },
+  "per_class_metrics": [
+    {
+      "class": "Fan_Normal",
+      "precision": 1.0,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.6,
+      "support": 7
+    },
+    {
+      "class": "Fan_Anomaly",
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1-score": 0.8235294117647058,
+      "support": 7
+    },
+    {
+      "class": "Pump_Normal",
+      "precision": 0.5333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.6956521739130436,
+      "support": 8
+    },
+    {
+      "class": "Pump_Anomaly",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 8
+    },
+    {
+      "class": "SlideRail_Normal",
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8333333333333333,
+      "support": 7
+    },
+    {
+      "class": "SlideRail_Anomaly",
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8
+    },
+    {
+      "class": "Valve_Normal",
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7
+    },
+    {
+      "class": "Valve_Anomaly",
+      "precision": 0.7142857142857143,
+      "recall": 0.625,
+      "f1-score": 0.6666666666666666,
+      "support": 8
+    }
+  ]
+}
